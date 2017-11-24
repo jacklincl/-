@@ -1,0 +1,48 @@
+#Label2 {
+    position: absolute;
+    left: 25%;
+    font-size: 20px;
+    top: 12%;
+}
+#old_psw {
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    top: 12%;
+}
+#RequiredFieldValidator1 {
+    position: absolute;
+    left: 62%;
+    font-size: 20px;
+    top: 12%;
+}
+#Label3 {
+    position: absolute;
+    left: 25%;
+    font-size: 20px;
+    top: 20%;
+}
+#new_psw {
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    top: 20%;
+}
+#RequiredFieldValidator2 {
+    position: absolute;
+    left: 62%;
+    font-size: 20px;
+    top: 20%;
+}
+#Button1 {
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+    top: 50%;
+}
+#result {
+    position: absolute;
+    left: 35%;
+    font-size: 20px;
+    top: 32%;
+}

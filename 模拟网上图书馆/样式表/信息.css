@@ -1,0 +1,17 @@
+﻿body { margin: 0; border: 0; position: relative;background-image: url('../images/千库网-清新背景设计素材图片下载桌面壁纸.jpg');opacity:0.7;filter:alpha(opacity=70);}
+.header{border: 1px solid #73964C;margin: 5px; margin-top :20px;padding: 5px; height: 30px;line-height: 30px;}
+.header a{text-decoration: none;font-family: 楷体; font-size: 20px;font-weight: bold;}
+.header a:hover {color:#BFE4DA;text-decoration :underline;}
+.header .a1{position: relative;left: 330px;}
+.header .a2{position: relative;left: 170px;}
+.header .a3{position: relative;left: 300px;}
+.header .a4{position: relative;left: 900px;}
+.main{ border: 1px solid; margin: 5px; padding: 5px; border-radius: 5px; border-style: inset; height: 30px; width: 1323px;line-height: 30px; position: absolute;top: 130px;    background-color: #FFEFF9;}
+.main a:link,.main a:visited {color:#a62020;padding:4px 10px;background-color:#DDD;border-top:1px solid #EEEEEE;border-left:1px solid #EEEEEE;border-bottom:1px solid #717171;border-right:1px solid #717171;}
+.main a:active{color:#821818;padding:5px 8px 3px 12px;background-color:#CCC;border-top:1px solid #717171;border-left:1px solid #717171;border-bottom:1px solid #EEEEEE;border-right:1px solid #EEEEEE;}
+.main .a2{position: relative; left: 120px;text-decoration: none;font-size: 22px;}
+.main .a1{position: relative; left: 320px;text-decoration: none;}
+.handname{ margin: 5px; border: 2px solid; width: 240px;height: 240px;position: absolute;top: 200px; left: 30px;border-style: ridge;background-color: #FFFFDD;}
+.info{margin: 5px;border: 2px solid;text-align: center; width: 1050px;height: 500px; position: absolute;top: 200px;left: 280px; border-style: ridge; background-color: #FFFFDD;}
+.handname #BulletedList1{position: absolute;bottom: 10px;right: 40px;font-size: 20px;font-family: 楷体;color: black;}
+.handname #BulletedList1 a{text-decoration:none;color: black;}

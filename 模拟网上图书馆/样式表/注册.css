@@ -1,0 +1,64 @@
+﻿body {
+}
+.header{border: 10px;
+    height: 20px;}
+.left{    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 50%;}
+.left img{}
+.left h2{}
+.right{        border: 2px solid;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    height: 40%;
+    width: 30%;
+    text-align: center;
+}
+.right #Label1{position: absolute;
+    top: 10%;
+    left: 30%;}
+.right #Image1{position: absolute;
+    top: 60%;
+    left: 47%;}
+.right #id{    position: absolute;
+    left: 11%;
+    top: 40%;}
+.right #text_id{    position: absolute;
+    left: 25%;
+    top: 40%;}
+.right #rfv_id{        position: absolute;
+    left: 64.6%;
+    top: 40%;}
+.right #pw{position: absolute;
+    left: 11%;
+    top: 50%;}
+.right #text_pw{position: absolute;
+    left: 25%;
+    top: 50%;}
+.right #rfv_pw{    position: absolute;
+    left: 65%;
+    top: 50%}
+.right #mail{position: absolute;
+    left: 11%;
+    top: 60%;}
+.right #text_mail{    position: absolute;
+    left: 25%;
+    top: 60%;}
+.right #rfv_mail{    position: absolute;
+    left: 65%;
+    top: 60%;}
+.right #Button1{    position: absolute;
+    left: 60%;
+    top: 75%;}
+.foot{    position: absolute;
+    top: 90%;
+    left: 70%;
+    margin: 1%;
+  }
+.foot .a1,.foot .a2{    margin: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;}
+.foot .a1:hover{text-decoration:underline;color:blue;}

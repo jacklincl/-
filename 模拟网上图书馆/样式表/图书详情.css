@@ -1,0 +1,66 @@
+﻿
+.left * {
+    font-size: 20px;
+}
+.left {
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: #5F6D6D;
+    text-align: center;
+}
+.right {
+    position: absolute;
+    left: 730px;
+    top: 39px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    height:552px;
+    background-color: #5F6D6D;
+    text-align: center;
+}
+#detail {
+    font-size: 20px;
+}
+.popOuter {
+    border: 1px solid red;
+    padding: 10px;
+    background-color: #ffe;
+}
+.popBack {
+    background-color: silver;
+    opacity: 0.5;
+    fill-opacity: 50;
+}
+.water_new {
+    color: #082F09;
+    background-color: #eaeaea;
+    font-size: 20px;
+}
+#text_new {
+    height: 100px;
+    width: 1200px;
+    margin-left: 20px;
+}
+#Button2 {
+    position: relative;
+    bottom: 49px;
+    height: 104px;
+    width: 90px;
+}
+div #P_pl {
+    border: 1px solid red;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 40px;
+}
+.btn {
+    height: 70px;
+    width: 150px;
+    padding: 20px;
+    font-size: 25px;
+}

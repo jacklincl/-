@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="模拟网上图书馆.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="样式表/读者.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div class="header">
+       <a class="a1" href="个人页.aspx">个人信息</a><a class="a2" href="../主页/主页.aspx">首页</a><a class="a3" href="订阅.aspx">我的图书馆</a>
+<asp:LinkButton ID="LinkButton1" class="a4"  runat="server" OnClick="LinkButton1_Click">退出登录</asp:LinkButton>
+   </div>
+
+            
+            <div class="main"><a class="a1" href="订阅.aspx">我的图书馆</a><a class="a2" href="个人信息.aspx">关于我</a></div>
+
+            <div class="handname">
+                <asp:BulletedList ID="BulletedList1" runat="server" DisplayMode="HyperLink">
+                    <asp:ListItem Value="读者/个人信息.aspx">个人信息</asp:ListItem>
+                    <asp:ListItem>个人设置</asp:ListItem>
+                    <asp:ListItem Value="读者/修改密码.aspx">修改密码</asp:ListItem>
+                </asp:BulletedList>
+                <asp:Label ID="user" runat="server" Text="Label"></asp:Label>
+            </div>
+            <div class="info">
+                <asp:BulletedList ID="BulletedList2" runat="server" DisplayMode="HyperLink" CssClass="BL2" DataSourceID="SqlDataSource1" DataTextField="导航名称" DataValueField="导航地址">
+                </asp:BulletedList>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\终极闪光版\模拟网上图书馆\模拟网上图书馆\数据\模拟图书馆.mdf;Integrated Security=True;Connect Timeout=30" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [导航菜单表]"></asp:SqlDataSource>
+            </div>
+            
+            <asp:ContentPlaceHolder ID="mysite" runat="server">
+                
+                  </asp:ContentPlaceHolder>
+            
+
+
+        <div class="foot"><p>模拟网上图书馆</p> </div>
+    </form>
+</body>
+</html>

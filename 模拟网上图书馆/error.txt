@@ -1,0 +1,13 @@
+﻿登录：
+  text_psw.Text = ck.Values["psw"]; //把TextMode设置成Psaaword后显示不成功
+  取消设置cookis["user"]后记录仍然存在
+  在读者和管理员切换时cookis不完善
+  背景图片在中文目录下无法加载
+图书详情页：
+  逻辑太杂，惨败
+  左右部分大小不一致
+  添加评论不知道怎么刷新
+  string strRedirectPage = "浏览.aspx";
+  Response.AddHeader("refresh", strRedirect);//中文地址乱码的问题
+  文本文件下载在IE中文乱码
+部分页面css改变，样式没变
